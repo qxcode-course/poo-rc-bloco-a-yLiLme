@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2025-09-17_14-08-58",
+            "content": "@@ -1,278 +1,22 @@\n-class Towel:%0A    def __init__(self, color: str, size: str):%0A        self.color: str=%22%22 %0A        self.size: str=%22%22%0A        self.wetness: int= 0%0A%0Aprint(%22Qual a cor da sua toalha?%22)%0Acolor = input()%0Aemilly: Towel = Towel(%22rosa%22, %22G%22)%0Aprint(f%22A cor da sua toalha %C3%A9 %7Bemilly.color%7D%22)%0A%0A\n+print(%22amo meu mozin%22)\n",
+            "lines": "1"
+        },
+        {
+            "label": "2025-09-17_14-44-48",
+            "content": "@@ -210,21 +210,22 @@\n = Towel(\n-color\n+%22rosa%22\n , %22G%22)%0Ap\n",
+            "lines": "11"
+        },
+        {
+            "label": "2025-09-17_14-47-57",
+            "content": "@@ -80,16 +80,11 @@\n  str\n- = color\n+=%22%22\n  %0A  \n@@ -107,15 +107,11 @@\n  str\n- = size\n+=%22%22\n %0A   \n",
+            "lines": "11"
+        },
+        {
+            "label": "2025-09-17_14-49-11",
+            "content": "@@ -201,48 +201,8 @@\n t()%0A\n-print(%22Qual o tamanho?%22)%0Asize = input()%0A\n emil\n@@ -226,20 +226,19 @@\n (color, \n-size\n+%22G%22\n )%0Aprint(\n@@ -279,41 +279,8 @@\n lor%7D\n- e o tamanho dela %C3%A9 %7Bemilly.size%7D\n %22)%0A%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2025-10-01_13-58-59",
+            "content": "class Towel:\n    def __init__(self, color: str, size: str):\n        self.color: str = color \n        self.size: str = size\n        self.wetness: int= 0\n\nprint(\"Qual a cor da sua toalha?\")\ncolor = input()\nprint(\"Qual o tamanho?\")\nsize = input()\nemilly: Towel = Towel(color, size)\nprint(f\"A cor da sua toalha \u00e9 {emilly.color} e o tamanho dela \u00e9 {emilly.size}\")\n\n",
+            "lines": "13"
+        }
+    ]
+}
